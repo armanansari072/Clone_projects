@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color:white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 8px;
+}
+.polar{
+    display: flex;
+    margin-left: 8%;
+    font-size: 20px;
+}
+.nav-items ul li{
+    font-family: Arial;
+    display: inline;
+    margin-top: 50%;
+    margin-left: 40px;
+    font-size: 17px;
+    color: rgb(158, 154, 154);
+
+}
+.nav-items ul li:hover{
+    color: black;
+}
+.sign-in-box{
+    display: flex;
+    display: inline;
+    border: 1px solid rgb(213, 209, 209);
+    text-align: center;
+    width: 65px;
+    height: 25px;
+    justify-content: center;
+    margin-left: 35px;
+    margin-top: 6px;
+}
+.sign-in-box:hover{
+    color: aqua;
+}
+.subscribe{
+    text-align: center;
+    justify-content: center;
+    height: 25px;
+    width: 75px;
+    margin-right: 18%;
+    background-color: aqua; 
+border-radius: 3px;
+    margin-top: 6px; 
+}
+.subscribe p{
+    margin-top: 4px;
+}
+.sign-in-box p{
+    /* margin-left: 100px; */
+    font-size: 15px;
+    border-radius: 2px;
+    padding: 2px;
+    
+}
+.contaier2{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    background-image:url(./kitten.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+}
+.header-content h2{
+    margin-top: 200px;
+    color: white;
+}
+.header-content p{
+    margin-top: 20px;
+    color: white;
+}
+.container-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 70px;
+}
+
