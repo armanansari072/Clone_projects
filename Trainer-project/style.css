@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+nav{
+    display: flex;
+    background-color: rgb(38, 59, 78);
+    height: 75px;
+    width: 100%;
+    text-align: center;
+   /* justify-content: space-between; */
+    /* height: 20px; */
+}
+.logo img{
+    height: 45px;
+    margin-top: 15px;
+
+}
+.logo{
+    display: flex;
+    text-align: center;
+    margin-left: 10%;
+}
+.title h1{
+    /* margin-left: 10px; */
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 11px;
+}
+.title{
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.menu ul li{
+    display: inline;
+    font-size: 15px;
+    margin-left: 30px;
+    /* margin-right: 10%; */
+}
+.menu ul li a:hover{
+    color: orangered;
+    text-decoration: underline;
+    transition: ease-in 0.3s;
+}
+.menu ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+.menu ul{
+    margin-top: 20px;
+}
+.menu{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    /* margin-bottom: -10px; */
+}
+.background{
+    height: 150vh;
+    background: url("https://www.themoviedb.org/t/p/w500_and_h282_face/s4PuusidubLjEubD6E3KfYKE9ia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cc-title h1{
+    color: white;
+    margin-left:  15%;
+    
+}
+.cc-title{
+    margin: 0;
+}
+
+.titles{
+    margin-left: 13%;
+    margin-top: 20%;
+}
+.titles h1{
+    color: white;
+    font-size: 100px;
+    font-family: Arial;
+}
+.titles p{
+    color: white;
+    font-size: 27px;
+}
+.service{
+    display: flex;
+   
+}
+.s-learn{
+    height: 60px;
+    width: 180px;
+    background: white;
+    margin-left: 2%;
+    justify-content: center;
+    text-align: center;
+}
+.s-learn:hover{
+    height: 57px;
+    width: 177px;
+    border: 3px solid orangered;
+
+}
+.s-content{
+    height: 60px;
+    width: 180px;
+    background: rgb(210, 96, 14);
+    margin-left: 13%;
+    justify-content: center;
+    text-align: center;
+
+}
+.s-content:hover{
+    background-color: rgb(49, 48, 48);
+}
+.section-container{
+    height:600px;
+    width: 100%;
+
+}
+.section-title{
+    /* justify-content: center; */
+    text-align: center;
+}
+.section-title p{
+    margin-top: 90px;
+    font-size: 20px;
+    color: orangered;
+    font-weight: bold;
+}
+.section-heading{
+    margin-top: 90px5}
+.section-heading h1{
+    font-size: 70px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+.section-heading p{
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+}
+.grey-box{
+    height: 590px;
+    width: 98%;
+    background-color:  rgb(38, 59, 78);
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 900px;
+    justify-content: center;
+    text-align: center;
+}
+.box{
+    
+    height: 230px;
+    width: 350px;
+    background-color: rgb(247, 247, 247);
+    margin: auto;
+}
+.boxx{
+    height: 80px;
+    width: 80px;
+    background-color: orangered;
+    margin: auto;
+    margin-top: 20px;
+}
+.cc-title h1{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-right: 20px;
+}
+.cc-title{
+    margin-top: 0px;
+}
+.fa fa-search{
+    color: white;
+    font-size: 20px;
+    margin-left: 90px;
+}
