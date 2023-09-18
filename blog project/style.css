@@ -129,3 +129,78 @@ nav ul li a:hover{
     margin-top: 100px;
     padding: 10px;
 }
+@media only screen and (max-width:768px){
+    .web-title {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .header-container {
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        background-color: #fea50096;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cc-title{
+        font-size: 20px;
+    }
+    .cc-content{
+        font-size: 15px;
+    }
+    .container-2 {
+                grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        padding: 0px !important;
+    }
+    .text-content{
+        padding: 3%;
+        font-size: 80%;
+    }
+    .section-title{
+        font-size: 25px;
+    }
+    .blog-container{
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        width: 100%;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+    }
+}
+@media only screen and (max-width:426px){
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .logo{
+       font-size: 30px;
+       margin-left: 10px;
+       margin-top: -15px;
+        
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+    }
+    nav ul li{
+        display: inline;
+        padding-right: 1px;
+        
+    }
+    nav ul{
+        margin-top: 2px;
+    }
+
+}
