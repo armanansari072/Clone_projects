@@ -108,3 +108,51 @@ margin-left: 30px;
     padding: 10px;
     font-size: 20px;
 }
+@media only screen and (max-width:953px)
+{
+    .logo{
+        margin-left: -90px;
+    }
+    .menu ul li{
+        display: inline;
+        margin-left: 10px;
+        }
+        .grid-box{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+}
+@media only screen and (max-width:640px)
+
+{
+    .grid-box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .menu ul li{
+        display: inline;
+        margin-left: 4px;
+        }
+        .menu ul li a{
+            /* margin-left: 40px; */
+            font-size: 15px;
+        }
+        .logo img{
+            height: 50px;
+            width: 150px;
+            margin-left: 100px;
+            margin-top: -10px;
+        }
+}
+@media only screen and (max-width:640px){
+    .menu ul li a{
+        display: inline;
+        /* margin-left: 40px; */
+        font-size: 12px;
+
+    }
+    .menu ul li{
+        display: inline;
+        margin-left: 0px;
+        }
+}
